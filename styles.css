@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+}
+
+
+
+
+
+/* Nav work start*/
+nav li {
+    display: inline;
+}
+nav ul {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Nav work end*/
+
+/* div work start*/
+
+div {
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+}
+
+input {
+    border-color: whitesmoke;
+}
+
+button {
+    border-color: rosybrown;
+}
+
+
+/* div work start*/
