@@ -1,16 +1,21 @@
+document.addEventListener('DOMContentLoaded', function(){
 
+    //document.querySelector('#add').disabled = true;
 
-function addItem() {
-        const oneItem = document.getElementById("item").value;
-       console.log("oneItem");
-}
+   // document.querySelector('#item').onkeyup = () => {
+     //   document.querySelector('#add').disable = false;
+    //}
 
-function select() {
-    document.getElementById('.add').addEventListener('click', addItem);
-}
-select();
+    document.querySelector('form').onsubmit = () => {
+        const task = document.querySelector('#item').value;
+        
+        const li = document.createElement('li');
+        li.innerHTML = task;
 
+        document.querySelector('#tasks').append(li);
 
+        document.querySelector('#item').value = ''; 
 
-
-  
+        return false; 
+    }
+});
