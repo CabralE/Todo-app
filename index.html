@@ -3,6 +3,7 @@
     <head>
         <title>To-Do app</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
     </head>
     <body>
         <header>
@@ -16,18 +17,18 @@
                 <li><a href="#">What to use</a></li>
             </ul>
         </nav>
+        <div>
         
-        <div>
-            <input type="text">
-            <button>Add</button>
-            <p>added items:</p>
         </div>
-        <div>
-            
-        </div>
+        <form>
+            <input  id="item" placeholder="Please add an item" type="text"> 
+            <button id="add">Add</button>
+            <!-- <input type="submit">
+            <p>added items:</p> -->
+        </form>
+        <ul id="tasks">
 
-        <footer>
-            <p>Thank you for selecing us!</p>
-        </footer>
+        </ul>
+
     </body>
 </html>

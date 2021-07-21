@@ -3,6 +3,7 @@ body {
 }
 header{
     text-align: center;
+    padding: 0px 0px 2px 0px;
 }
 
 
@@ -10,8 +11,15 @@ header{
 
 
 /* Nav work start*/
+nav {
+    background-color: grey;
+    padding: 2px 0px 2px 0px;
+
+}
 nav li {
     display: inline;
+    padding: 0px 90px 0px 0px;
+
 }
 nav ul {
     text-align: center;
@@ -25,11 +33,10 @@ a:hover {
 /* Nav work end*/
 
 /* div work start*/
-
 div {
     text-align: center;
     margin: 40px 0px 0px 0px;
-    padding: 40px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 input {
@@ -39,6 +46,10 @@ input {
 button {
     border-color: rosybrown;
 }
-
-
 /* div work start*/
+
+/* footer work start*/
+footer {
+    text-align: center;
+}
+/* footer work ends*/
