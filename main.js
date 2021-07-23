@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', function(){
      //   document.querySelector('#add').disable = false;
     //}
 
+    //by default, the submit button should be disabled
+    document.querySelector('#submit').disabled = true;
+
+    //
+    document.querySelector('#item').onkeyup = () => {
+        if (document.querySelector('#item').value.length>0){
+        document.querySelector('#submit').disabled = false;
+        } else {
+            document.querySelector('#submit').disabled = true;
+        }
+    }
+
     document.querySelector('form').onsubmit = () => {
         const task = document.querySelector('#item').value;
         
@@ -15,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
         document.querySelector('#tasks').append(li);
 
         document.querySelector('#item').value = ''; 
-
+        document.querySelector('#submit').disabled = true;
         return false; 
     }
 });
