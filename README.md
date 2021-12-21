@@ -1,6 +1,6 @@
 Todo List
 
-This is a frontend mininal viable product todo app in which the user can create, delete, cross off, and update an action item. This was made with HTML, CSS , and JS as the primary languages and React's library.
+This is a frontend mininal viable product todo app in which the user can create, delete, cross off, and update an action item. This was made with HTML, CSS , and JS as the primary languages and React's library. This can only be run locally.
 
 
 Challenges:
