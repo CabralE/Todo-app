@@ -38,7 +38,7 @@ function TodoList() {
     
     return (
         <div>
-            <h1>Hello, World!</h1>
+            <h1>Ed's Todo App</h1>
             <TodoForm onSubmit={addTodo}/>
             <Todo
                 todos={todos}

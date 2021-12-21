@@ -34,14 +34,14 @@ function TodoForm(props) {
                 ref={inputRef}
             />
             <button className="todo-button edit">
-                Update
+                Update item
             </button>
             </>
             ) : (       
                 <>    
                 <input 
                 type="text" 
-                placeholder="Add a todo" 
+                placeholder="Add an item" 
                 value={input}
                 name="text"
                 className="todo-input"
@@ -49,7 +49,7 @@ function TodoForm(props) {
                 ref={inputRef}
             />
             <button className="todo-button">
-                Add Todo
+                Add item
             </button>
                 </> 
             )}
@@ -59,16 +59,3 @@ function TodoForm(props) {
 }
 
 export default TodoForm
-
-//     < input
-// type = "text"
-// placeholder = "Add a todo"
-// value = { input }
-// name = "text"
-// className = "todo-input"
-// onChange = { handleChange }
-// ref = { inputRef }
-//     />
-//     <button className="todo-button">
-//         Add Todo
-//     </button>
